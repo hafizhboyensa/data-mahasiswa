@@ -9,7 +9,7 @@
 
         $sql= "INSERT INTO mahasiswa(nim,nama_mhs,tgl_lahir,alamat,prodi_id) VALUES ('$nim','$nama','$tanggal','$alamat','$prodi_id')";
         $query = $koneksi->query($sql);
-        header("Location: index.php");
+        header("Location: list_mahasiswa.php");
         exit(); 
     }
 ?>

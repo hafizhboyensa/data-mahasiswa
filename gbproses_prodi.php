@@ -7,7 +7,7 @@
 
         $sql= "INSERT INTO prodi(nama_prodi,jenjang,keterangan) VALUES ('$nama_prodi','$jenjang','$keterangan')";
         $query = $koneksi->query($sql);
-        header("Location: index.php");
+        header("Location: list_prodi.php");
         exit(); 
     }
 ?>

@@ -58,7 +58,7 @@
     if(isset($_POST['submit'])){
         $update = mysqli_query($koneksi, "UPDATE mahasiswa SET nim='$_POST[nim]', nama_mhs='$_POST[nama]', tgl_lahir='$_POST[tanggal]', alamat='$_POST[alamat]', prodi_id='$_POST[prodi]' WHERE nim=$_GET[nim]");
         if($update){
-            header ("Location:index.php");
+            header ("Location:list_mahasiswa.php");
         }else{
             print "Maaf, data gagal diubah";
         }

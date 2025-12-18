@@ -53,7 +53,7 @@
             </div>
             <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             <button type="reset" name="reset" class="btn btn-primary">Reset</button>
-            <a href="index.php"><button type="button" name="index" class="btn btn-primary">Lihat List Data Mahasiswa</button></a>
+            <a href="list_mahasiswa.php"><button type="button" name="index" class="btn btn-primary">Lihat List Data Mahasiswa</button></a>
         </form>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

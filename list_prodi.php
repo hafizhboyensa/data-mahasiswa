@@ -19,7 +19,7 @@
         </div>
         <div class="justify-content-end">
             <a href="list_mahasiswa.php"><button class="btn btn-outline-success me-2" type="button" >Data Mahasiswa</button></a>
-            <a href="list_prodi.php"><button class="btn btn-outline-success me-2" type="button">Data Prodi</button></a>
+            <a href="list_prodi.php"><button class="btn btn-success me-2" type="button">Data Prodi</button></a>
         </div>
         
      </form>
